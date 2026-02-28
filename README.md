@@ -5,9 +5,7 @@
 - 向前端提供拍卖列表、出价历史、统计等 REST API
 - 集成 Alchemy NFT API 查询钱包 NFT 列表（带短缓存）
 
-当前实现默认接入：
-- Chain: `Sepolia` (chainId = `11155111`)
-- Contract: `0x2Ba8Eb0aa6E5Afc8d9A4B5678924aF7B7bb59DAb`
+
 
 ## 1. 技术栈
 

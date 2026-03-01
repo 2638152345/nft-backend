@@ -1,6 +1,6 @@
 # NFT Auction Backend (Homework)
 
-一个独立的 Go 后端项目，作为 NFT 拍卖作业的数据桥梁：
+一个独立的 Go 后端项目，作为 NFT 拍卖的数据桥梁：
 - 监听链上拍卖合约事件并同步到 MySQL
 - 向前端提供拍卖列表、出价历史、统计等 REST API
 - 集成 Alchemy NFT API 查询钱包 NFT 列表（带短缓存）
@@ -209,7 +209,7 @@ curl "http://127.0.0.1:8080/api/v1/auctions?page=1&size=20"
 curl "http://127.0.0.1:8080/api/v1/sync/status"
 ```
 
-## 10. 作业说明与边界
+## 10. 说明与边界
 
 - `start_time` 按当前链上事件所在区块时间推导（当前合约是“立即开始”语义）
 - 金额字段按链上最小单位存储与返回（字符串，避免前端精度丢失）

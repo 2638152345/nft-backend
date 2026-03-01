@@ -1,4 +1,4 @@
-# NFT Auction Backend (Homework)
+# NFT Auction Backend 
 
 一个独立的 Go 后端项目，作为 NFT 拍卖的数据桥梁：
 - 监听链上拍卖合约事件并同步到 MySQL
